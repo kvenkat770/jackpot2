@@ -15,7 +15,7 @@ class HeaderConstants:
 
 
 class HttpStatusCodes:
-     FORBIDDEN = 403
+    FORBIDDEN = 403
     NOT_FOUND = 404
     UNAUTHORIZED = 401
     BAD_REQUEST = 400
