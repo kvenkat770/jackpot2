@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Run Black
+black --config webapp.toml .
+
+#Run isort
+isort .
+
+#Run Flake8
+flake8 .
